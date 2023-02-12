@@ -5,8 +5,8 @@
 #include <memory>
 #include <boost/asio/ip/address_v6.hpp>
 
-#include <lua.h>
-#include <lauxlib.h>
+#include <lua5.3/lua.h>
+#include <lua5.3/lauxlib.h>
 
 #include "pipeline.hpp"
 #include "filter-xor.hpp"
